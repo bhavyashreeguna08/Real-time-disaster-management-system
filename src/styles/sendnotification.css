@@ -1,0 +1,108 @@
+/* sendnotification.css */
+
+/* Background and Container */
+.notification-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #1a1a2e, #16213e);
+    color: white;
+    padding: 20px;
+}
+
+/* Notification Card */
+.notification-card {
+    background: rgba(23, 42, 69, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.notification-card:hover {
+    transform: scale(1.02);
+}
+
+/* Heading */
+.notification-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #00aaff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.notification-input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #0f3460;
+    border: 1px solid #00aaff;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+.notification-input:focus {
+    border-color: #00e1ff;
+    box-shadow: 0px 0px 10px rgba(0, 225, 255, 0.6);
+}
+
+/* Textarea */
+.notification-textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #0f3460;
+    border: 1px solid #00aaff;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    resize: none;
+    transition: 0.3s ease-in-out;
+}
+
+.notification-textarea:focus {
+    border-color: #00e1ff;
+    box-shadow: 0px 0px 10px rgba(0, 225, 255, 0.6);
+}
+
+/* Button */
+.notification-button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #00aaff, #0077cc);
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.notification-button:hover {
+    background: linear-gradient(to right, #0077cc, #005fa3);
+    transform: scale(1.03);
+}
+
+.notification-button:disabled {
+    background: #555;
+    cursor: not-allowed;
+}
+
+/* Footer */
+.notification-footer {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #bdbdbd;
+}

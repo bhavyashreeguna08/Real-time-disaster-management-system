@@ -1,0 +1,37 @@
+.incident-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #d9534f;
+}
+
+.incident-card {
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.incident-card:hover {
+    transform: scale(1.03);
+}
+
+.incident-image {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.incident-description {
+    font-size: 14px;
+    color: #555;
+}
+
+.incident-region {
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
