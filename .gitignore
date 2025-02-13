@@ -1,0 +1,45 @@
+# Node modules
+/node_modules/
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build and dependency files
+/dist/
+/build/
+/bin/
+/obj/
+
+# Environment variables (security)
+.env
+
+# Visual Studio for .NET
+.vs/
+.vscode/
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# JetBrains IDE files
+.idea/
+
+# Temporary files
+*.tmp
+
+# Ignore MS.NET specific build files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Ignore sensitive config files
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+
