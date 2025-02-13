@@ -1,0 +1,36 @@
+/* VolunteerForm.css */
+
+.volunteer-container {
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.volunteer-card {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+h2 {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.volunteer-btn {
+    background-color: #28a745;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.volunteer-btn:hover {
+    background-color: #218838;
+}
+
+/* Success and Error Alert */
+.alert {
+    font-weight: bold;
+    font-size: 16px;
+}

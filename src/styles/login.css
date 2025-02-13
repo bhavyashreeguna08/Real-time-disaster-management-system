@@ -1,0 +1,89 @@
+/* login.css */
+
+/* Background */
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #e0e0e9, #2f3851);
+    color: white;
+    padding: 20px;
+}
+
+/* Login Card */
+.login-card {
+    background: rgba(68, 72, 78, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.login-card:hover {
+    transform: scale(1.02);
+}
+
+/* Title */
+.login-card h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #00aaff;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.login-card input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #d4d8dd;
+    border: 1px solid #00aaff;
+    color: white;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+.login-card input:focus {
+    border-color: #00e1ff;
+    box-shadow: 0px 0px 10px rgba(0, 225, 255, 0.6);
+}
+
+/* Button */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #00aaff, #0077cc);
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.login-btn:hover {
+    background: linear-gradient(to right, #0077cc, #005fa3);
+    transform: scale(1.03);
+}
+
+/* Error Message */
+.login-error {
+    background-color: rgba(255, 0, 0, 0.2);
+    border-left: 4px solid red;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.login-footer {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #bdbdbd;
+}

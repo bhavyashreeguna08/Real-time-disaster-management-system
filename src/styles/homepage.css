@@ -1,0 +1,32 @@
+.disaster-heading {
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news-video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.news-section,
+.video-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.news-card,
+.video-card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.weather-info {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.weather-info h5 {
+    font-weight: bold;
+}

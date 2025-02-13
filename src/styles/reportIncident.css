@@ -1,0 +1,40 @@
+/* Report Incident Page */
+.report-container {
+    min-height: 100vh;
+    background: #f8f9fa;
+    /* Light gray background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.report-card {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    background: white;
+}
+
+.report-card h3 {
+    font-weight: bold;
+    color: #d9534f;
+    /* Bootstrap danger color */
+}
+
+.report-card .btn-danger {
+    background: #d9534f;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.3s ease;
+}
+
+.report-card .btn-danger:hover {
+    background: #c9302c;
+    /* Darker red */
+}
+
+.alert {
+    font-weight: bold;
+}

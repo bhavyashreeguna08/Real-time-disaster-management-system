@@ -1,0 +1,34 @@
+/* AdminDashboard.css */
+
+.admin-dashboard {
+    margin-top: 50px;
+    max-width: 900px;
+}
+
+.admin-card {
+    background: #f8f9fa;
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+    padding: 20px;
+}
+
+.admin-card:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.dashboard-btn {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.dashboard-btn:hover {
+    background-color: #0056b3 !important;
+}

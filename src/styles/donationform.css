@@ -1,0 +1,36 @@
+/* DonationForm.css */
+
+.donation-container {
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.donation-card {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+h2 {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.donate-btn {
+    background-color: #007bff;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.donate-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Success and Error Alert */
+.alert {
+    font-weight: bold;
+    font-size: 16px;
+}

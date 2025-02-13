@@ -1,0 +1,40 @@
+.custom-navbar {
+    background: #1b1f23;
+    /* Dark disaster-relevant background */
+    padding: 12px 0;
+    border-bottom: 3px solid #d9534f;
+    /* Red emergency border */
+}
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    color: #ffffff !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    margin-right: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #d9534f !important;
+    /* Emergency Red on Hover */
+    transform: scale(1.1);
+}
+
+.logout-btn {
+    font-weight: bold;
+    margin-left: 15px;
+    padding: 5px 15px;
+    border-radius: 8px;
+    background-color: #d9534f;
+    border: none;
+}
+
+.logout-btn:hover {
+    background-color: #c9302c;
+}
